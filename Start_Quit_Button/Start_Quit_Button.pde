@@ -9,13 +9,18 @@ void draw() {
 } //End raw
 //
 void keyPressed() {
-  if (key==' ') noNowReallyStart = true;
+  if (key==' ' && start==true) noNowReallyStart = true;
+  //
+  //Prototype Keyboard Quit Button OR Shortcut
+  if () exit();
+  if () exit();
 } //End keyPressed
 //
 void mousePressed() {
   //
   //OS Level Start Button
   start = true;
+  println("To Start, Press the Space Bar");
 } //End mousePressed
 //
 //End Main Program
