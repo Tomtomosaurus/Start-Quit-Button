@@ -10,10 +10,10 @@ void setup() {
   appHeight = height;
   //
   //Population
-  quitButtonX = ;
-  quitButtonY = ;
-  quitButtonWidth = ;
-  quitButtonHeight = ;
+  quitButtonX = appWidth/4;
+  quitButtonY = appHeight/4;
+  quitButtonWidth = appWidth/2;
+  quitButtonHeight = appHeight/2;
 } //End setup
 //
 void draw() {
